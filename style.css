@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    padding-top: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+img {
+    border: 5px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 800px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #777;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Recognition</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Live Object Recognition</h1>
+    <div class="video-container">
+        <img src="{{ url_for('video') }}" alt="Webcam Feed">
+    </div>
+    <footer>
+        <p>&copy; 2025 AI object detection by Ronak. All rights reserved.</p>
+    </footer>
+</body>
+</html>
